@@ -7,13 +7,10 @@ import com.example._19_ty_dine_spring_homework001.model.request.TicketRequest;
 import com.example._19_ty_dine_spring_homework001.model.response.APIResponse;
 import com.example._19_ty_dine_spring_homework001.model.response.noPayloadResponse;
 import io.swagger.v3.oas.annotations.Operation;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.cglib.core.Local;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;

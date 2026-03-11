@@ -1,6 +1,5 @@
 package com.example._19_ty_dine_spring_homework001.model.request;
 
-import com.example._19_ty_dine_spring_homework001.model.entity.TicketStatus;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
