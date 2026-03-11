@@ -1,8 +1,11 @@
 package com.example._19_ty_dine_spring_homework001.model.entity;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+import java.time.LocalDate;
 
 @Data
 @AllArgsConstructor
@@ -10,6 +13,7 @@ import lombok.NoArgsConstructor;
 public class Ticket {
     private Long ticketId;
     private String passengerName;
+    @Schema(example = "2026-03-11")
     private String travelDate;
     private String sourceStation;
     private String destinationStation;
